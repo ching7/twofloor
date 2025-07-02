@@ -172,7 +172,7 @@ module.exports = {
 
 ### 3.2 导航栏配置
 
-{% asset_img bar-example.jpg %}
+![](manual/bar-example.jpg)
 
 ~~~js
 themeConfig: {
@@ -196,7 +196,7 @@ themeConfig: {
 
 ### 3.3 侧边栏配置
 
-{% asset_img bar-example2.jpg %}
+![](bar-example2.jpg)
 
 ~~~js
 module.exports = {
