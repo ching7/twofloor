@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://ching7.github.io/twofloor
+url: https://ching7.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -120,6 +120,31 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+## hhttps://github.com/hexojs/hexo-renderer-marked
+marked:
+  gfm: true
+  pedantic: false
+  breaks: true
+  smartLists: true
+  smartypants: true
+  quotes: '“”‘’'
+  modifyAnchors: 0
+  anchorAlias: false
+  autolink: true
+  mangle: true
+  sanitizeUrl: false
+  dompurify: false
+  headerIds: true
+  lazyload: false
+  figcaption: false
+  prependRoot: true
+  postAsset: true
+  external_link:
+    enable: false
+    exclude: []
+    nofollow: false
+  disableNunjucks: false
+  descriptionLists: true
 ## Themes: https://hexo.io/themes/
 ## theme: landscape
 theme: maupassant

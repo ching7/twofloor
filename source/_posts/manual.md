@@ -172,7 +172,7 @@ module.exports = {
 
 ### 3.2 导航栏配置
 
-![](manual/bar-example.jpg)
+![](bar-example.jpg)
 
 ~~~js
 themeConfig: {
